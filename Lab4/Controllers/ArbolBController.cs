@@ -10,7 +10,7 @@ using System.IO;
 namespace Lab4.Controllers
 {
     //José Montenegro 1229918
-    //Fernando Oliva 
+    //Fernando Oliva 1251518
     public class ArbolBController : Controller
     {
         // GET: ArbolB
