@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4", "Lab4\Lab4.csproj", "{80FC3611-34C2-4D63-B7DB-FC2E8C4AA237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbolB", "ArbolB\ArbolB.csproj", "{BAFF4E92-D25E-42B8-A7B6-A27D23EAFBB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80FC3611-34C2-4D63-B7DB-FC2E8C4AA237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80FC3611-34C2-4D63-B7DB-FC2E8C4AA237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80FC3611-34C2-4D63-B7DB-FC2E8C4AA237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80FC3611-34C2-4D63-B7DB-FC2E8C4AA237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFF4E92-D25E-42B8-A7B6-A27D23EAFBB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFF4E92-D25E-42B8-A7B6-A27D23EAFBB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFF4E92-D25E-42B8-A7B6-A27D23EAFBB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFF4E92-D25E-42B8-A7B6-A27D23EAFBB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD464BFD-B5D7-4AF1-A9A9-44CBC983B5E6}
+	EndGlobalSection
+EndGlobal

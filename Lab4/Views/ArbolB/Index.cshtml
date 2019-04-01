@@ -1,0 +1,63 @@
+﻿@using Lab4.Models;
+@model IEnumerable<Inventario>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LecturaDeArchivo</title>
+    <style type="text/css">
+        body {
+            font-family: Arial;
+            font-size: 10pt;
+        }
+
+        table {
+            border: 1px solid #0026ff;
+            border-collapse: collapse;
+            background-color: aqua;
+        }
+
+            table th {
+                background-color: aquamarine;
+                color: crimson;
+                font-weight: bold;
+            }
+
+            table th, table td {
+                padding: Spx;
+                border: 1px solid #ccc;
+            }
+
+            table, table table td {
+                border: 0px solid #ccc;
+            }
+    </style>
+</head>
+<body>
+
+    @using (Html.BeginForm("Index", "ArbolB", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="postedFile" />
+        <input type="submit" value="Importar (Mostrar archivo)" />
+        <br />
+        <form name="factura" action="Index" method="post">
+            Grado:  <input type="text" name="grado" required />
+        </form>
+        <br />
+    }
+</body>
+</html>
+
+<br />
+<div>
+    <form action="ArbolB/Menú" method="post">
+        <input type="submit" name="enviar" value="Ir A Busqueda" />
+    </form>
+</div>
+<br />
